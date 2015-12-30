@@ -4,12 +4,9 @@ PDTH HUD IS A MOD THAT RECREATE THE PDTH HUD LOOK IN PAYDAY 2 GAME
 BURSTFIRE IS A MOD TO CREATE AN EXTRA FIREMODE WHERE IT SIMULATE A 3 ROUND RAPID SHOT AS BURST IN THE FORM OF 3 RAPID PAYDAY2-SINGLE-SHOT FUNCTION
 (PDTH HUD WILL ORIGINALLY CYCLE THE FIREMODE AS AUTO -> SINGLE -> SINGLE(BURST) AND BACK AGAIN, AS IT IS ORDERED BY CUSTOM HUD COMPATIBILITY FUNCTION IN BURSTFIRE)
 
-THANKS TO ALETHER AND FRACTALIA (IF THEY STILL HAVE THE SAME STEAM NAME)
+THANKS TO ALETHER AND FRACTALIA
 
 
-
-On HudTM.lua
-=============
 
 --------------------------
 add:
@@ -57,6 +54,16 @@ inside the if else firemode==single function
 after the last firemode_auto line-
 
 this is to hide the BURST text display on the HUD when changing firemode to AUTO or SINGLE
+
+
+
+!=======================================================================================================!
+=======================================================================================================
+The latest PDTH Hud update changes the structure of the mod
+So the above changes still work, albeit with more modification to make
+User now must also add the above code to HudTM.lua at the Hooks folder on the PDTH mod folder.
+=======================================================================================================
+!=======================================================================================================!
 
 
 
